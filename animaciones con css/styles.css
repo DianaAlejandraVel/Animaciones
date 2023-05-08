@@ -1,0 +1,19 @@
+#cuadrado{
+    width: 200px;
+    height: 200px;
+    background:#9999FF;
+    animation-name: mianimacion;
+    animation-duration: 8s;
+    position: relative;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mianimacion {
+    0% {background: #9999FF; left: 0;top: 0px;}
+    25% {background: #CC0099; left:300px; top: 0;}
+    50% {background: #CCCCFF; left: 300px; top:300px;}
+    75% {background: #00FFFF; left: 0px; top: 300px;}
+    100% {background: #FFCCFF; left: 0px; top: 0px;}
+}
